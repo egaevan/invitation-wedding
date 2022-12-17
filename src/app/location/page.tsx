@@ -11,6 +11,7 @@ import Time from '../../../public/time.png'
 import Place from '../../../public/place.png'
 import Cincin from '../../../public/cincin.png'
 import Cheers from '../../../public/cheers2.png'
+import {useRouter} from "next/navigation";
 
 
 export default function Page() {
@@ -19,6 +20,8 @@ export default function Page() {
   let containerBorder: any = React.useRef(null)
   let containerBorder2: any = React.useRef(null)
   let textTitle: any = React.useRef(null)
+  let btnMapsAkad: any = React.useRef(null)
+  const router = useRouter()
 
 
   React.useEffect(() => {
@@ -27,6 +30,11 @@ export default function Page() {
     TweenMax.to(containerBorder2, .8, { opacity: 1, delay: 1, ease: Power3.easeOut })
     TweenMax.to(textTitle, .8, { opacity: 1, ease: Power3.easeOut })
   }, [])
+
+  const btnOpen = () => {
+    return "https://goo.gl/maps/HrRy93wF767hev2r9"
+    router.push('/location')
+  }
 
   return (
     <div className={classnames('max-h-[calc(100vh-220px)]  md:max-h-[calc(100vh-130px)] lg:max-h-[calc(100vh-130px)] overflow-x-hidden overflow-y-auto ')}>
@@ -75,6 +83,15 @@ export default function Page() {
               </div>
               <h1 className={classnames('ml-[8px] text-[14px] font-caladea')}>Islamic Center Padang Panjang</h1>
             </div>
+            <div className={classnames('flex flex-col items-center justify-center')}>
+              <div className={classnames('ml-3')}>
+                <a href="https://goo.gl/maps/HrRy93wF767hev2r9">
+                  <button className={classnames('py-[8px] w-[10vw] md:w-[30px] lg:w-[200px] mt-[12px] rounded-md relative bg-[#D49494] text-white opacity-1 hover:bg-[#e8aeae]')}>
+                    Open Maps
+                  </button>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -112,6 +129,15 @@ export default function Page() {
               <h1 className={classnames('ml-[8px] text-[14px] font-caladea w-[250px]')}>Rumah Mempelai Wanita
                 Jl. Mr. M. Roem No. 1, Padang Panjang Timur,
                 Padang Panjang</h1>
+            </div>
+            <div className={classnames('flex flex-col items-center justify-center')}>
+              <div className={classnames('ml-3')}>
+                <a href="https://goo.gl/maps/HaL5cAnzhf8hjrMv8">
+                  <button className={classnames('py-[8px] w-[10vw] md:w-[30px] lg:w-[200px] mt-[12px] rounded-md relative bg-[#D49494] text-white opacity-1 hover:bg-[#e8aeae]')}>
+                    Open Maps
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
