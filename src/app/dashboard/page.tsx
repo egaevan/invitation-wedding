@@ -6,6 +6,7 @@ import Flower from '../../../public/flower.png'
 import Ring from '../../../public/ring.png'
 import { useRouter } from 'next/navigation';
 import { TweenMax, Power3 } from 'gsap'
+import {Howl, Howler} from 'howler'
 
 
 export default function Page() {
@@ -16,11 +17,22 @@ export default function Page() {
   const router = useRouter()
 
 
+  var sound = new Howl({
+    src: ['./Akad.mp3'],
+    autoplay: true,
+    loop:true,
+    onplayerror: function() {
+      sound.once('unlock', function() {
+        sound.play();
+      });
+    }
+  });
   React.useEffect(() => {
     TweenMax.to(weddingText, .8, { opacity: 1, y: -20, ease: Power3.easeOut })
     TweenMax.to(containerName, .8, { opacity: 1, y: -20, delay: .3, ease: Power3.easeOut })
     TweenMax.to(btnWedding, .8, { opacity: 1, y: -20, delay: .5, ease: Power3.easeOut })
-    
+    sound.play();
+
   }, [])
 
   const btnOpen = () => {
