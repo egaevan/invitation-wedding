@@ -5,7 +5,7 @@ import Image from 'next/image';
 import flower3 from '../../../public/flower3.png'
 import Ica from '../../../public/Ica.png'
 import { TweenMax, Power3 } from 'gsap'
-import BG from '../../../public/bg.png'
+import BG from '../../../public/bg-loc.png'
 import Calender from '../../../public/calender.png'
 import Time from '../../../public/time.png'
 import Place from '../../../public/place.png'
@@ -44,8 +44,8 @@ export default function Page() {
           object-fit='fill'
         />
         <div className={classnames('absolute flex flex-col top-[110px] left-0 right-0 ml-auto mr-auto text-center opacity-0')} ref={item => { textTitle = item }}>
-          <h1 className={classnames('text-white text-[24px] leading-[150%] tracking-[0.3em] font-caladea')}>THE WEDDING</h1>
-          <h1 className={classnames('text-white text-[24px] leading-[150%] tracking-[0.3em] font-caladea mt-[31px]')}>ICA & EGA </h1>
+          <h1 className={classnames('text-black text-[24px] leading-[150%] tracking-[0.3em] font-caladea')}>THE WEDDING</h1>
+          <h1 className={classnames('text-black text-[24px] leading-[150%] tracking-[0.3em] font-caladea mt-[31px]')}>ICA & EGA </h1>
         </div>
       </div>
 
@@ -131,7 +131,7 @@ export default function Page() {
             </div>
             <div className={classnames('flex flex-col items-center justify-center')}>
             <div className={classnames('ml-3 ')}>
-                <a href="https://goo.gl/maps/HrRy93wF767hev2r9">
+                <a href="https://goo.gl/maps/odiUuENpEAw2vsVGA">
                   <button className={classnames('py-[8px] w-[250px] mt-[12px] rounded-md relative bg-[#D49494] text-white opacity-1 hover:bg-[#e8aeae]')}>
                     Open Maps
                   </button>
