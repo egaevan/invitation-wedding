@@ -4,7 +4,7 @@ import classnames from 'classnames'
 import Image from 'next/image';
 import flower3 from '../../../public/flower3.png'
 import { TweenMax, Power3 } from 'gsap'
-import BG2 from '../../../public/bg2.png'
+import BG2 from '../../../public/bg-message.png'
 import {Howl, Howler} from 'howler'
 
 
