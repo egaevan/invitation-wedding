@@ -5,7 +5,7 @@ import Image from 'next/image';
 import flower3 from '../../../public/flower3.png'
 import Ica from '../../../public/Ica.png'
 import { TweenMax, Power3 } from 'gsap'
-import BG from '../../../public/bg-loc.png'
+import BG from '../../../public/bg-loc-small.png'
 import Calender from '../../../public/calender.png'
 import Time from '../../../public/time.png'
 import Place from '../../../public/place.png'
