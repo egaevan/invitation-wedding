@@ -9,6 +9,7 @@
     "classnames": "^2.3.2",
     "eslint-config-next": "^13.0.6",
     "google-spreadsheet": "^3.3.0",
+    "googleapis": "^110.0.0",
     "gsap": "^3.11.3",
     "howler": "^2.2.3",
     "next": "^13.0.6",
