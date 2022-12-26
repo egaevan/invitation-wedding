@@ -42,7 +42,7 @@ export default function Page() {
       ucapan,
     }
 
-    const response = await fetch('/../../api/submit',{
+    const response = await fetch('/api/submit',{
       method:'POST',
       headers:{
         'Accept':'application/json',
