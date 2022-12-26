@@ -37,7 +37,7 @@ export default function Page() {
       ucapan,
     }
 
-    const response = await fetch('http://localhost:3000/api/submit',{
+    const response = await fetch(`${process.env.API}/api/submit`,{
       method:'POST',
       headers:{
         'Accept':'application/json',
