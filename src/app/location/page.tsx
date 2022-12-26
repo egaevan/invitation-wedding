@@ -13,7 +13,6 @@ import Cincin from '../../../public/cincin.png'
 import Cheers from '../../../public/cheers2.png'
 import {useRouter} from "next/navigation";
 
-
 export default function Page() {
   let containerImage: any = React.useRef(null)
 
@@ -84,9 +83,9 @@ export default function Page() {
               <h1 className={classnames('ml-[8px] text-[14px] font-caladea')}>Islamic Center Padang Panjang</h1>
             </div>
             <div className={classnames('flex flex-col items-center justify-center')}>
-              <div className={classnames('ml-3')}>
+              <div className={classnames('ml-3 ')}>
                 <a href="https://goo.gl/maps/HrRy93wF767hev2r9">
-                  <button className={classnames('py-[8px] w-[10vw] md:w-[30px] lg:w-[200px] mt-[12px] rounded-md relative bg-[#D49494] text-white opacity-1 hover:bg-[#e8aeae]')}>
+                  <button className={classnames('py-[8px] w-[250px] mt-[12px] rounded-md relative bg-[#D49494] text-white opacity-1 hover:bg-[#e8aeae]')}>
                     Open Maps
                   </button>
                 </a>
@@ -96,14 +95,14 @@ export default function Page() {
         </div>
       </div>
       <div className={classnames('mt-[100px] px-[40px] opacity-0')} ref={item => { containerBorder2 = item }}>
-        <div className={classnames('bg-[#FEDFE3] h-[366px] relative rounded-md')} style={{ boxShadow: '2px 4px 4px rgba(0, 0, 0, 0.25)' }}>
+        <div className={classnames('bg-[#FEDFE3] h-[400px] relative mb-2 rounded-md')} style={{ boxShadow: '2px 4px 4px rgba(0, 0, 0, 0.25)' }}>
           <div className={classnames(' text-center flex items-center justify-center ml-auto mr-auto')}>
             <div className={classnames('absolute top-[-40px] w-[221px] h-[80px]')}>
               <Image src={flower3} object-fit='fill' alt="ring-image" />
             </div>
 
           </div>
-          <div className={classnames('m-[16px] border border-[#BB9096] h-[330px] flex flex-col justify-center')}>
+          <div className={classnames('m-[16px] border border-[#BB9096] h-[360px] flex flex-col justify-center')}>
             <div className={classnames('flex flex-col items-center justify-center')}>
               <div className={classnames('ml-3')}>
                 <Image src={Cheers} height={53} width={53} alt="ring-image" />
@@ -131,9 +130,9 @@ export default function Page() {
                 Padang Panjang</h1>
             </div>
             <div className={classnames('flex flex-col items-center justify-center')}>
-              <div className={classnames('ml-3')}>
-                <a href="https://goo.gl/maps/HaL5cAnzhf8hjrMv8">
-                  <button className={classnames('min-w-screen py-[8px] w-[10vw] md:w-[30px] lg:w-[200px] mt-[12px] rounded-md relative bg-[#D49494] text-white opacity-1 hover:bg-[#e8aeae]')}>
+            <div className={classnames('ml-3 ')}>
+                <a href="https://goo.gl/maps/HrRy93wF767hev2r9">
+                  <button className={classnames('py-[8px] w-[250px] mt-[12px] rounded-md relative bg-[#D49494] text-white opacity-1 hover:bg-[#e8aeae]')}>
                     Open Maps
                   </button>
                 </a>

@@ -3,14 +3,9 @@ import React, {FormEvent, useState} from 'react'
 import classnames from 'classnames'
 import Image from 'next/image';
 import flower3 from '../../../public/flower3.png'
-import Ica from '../../../public/Ica.png'
 import { TweenMax, Power3 } from 'gsap'
 import BG2 from '../../../public/bg2.png'
-import Calender from '../../../public/calender.png'
-import Time from '../../../public/time.png'
-import Place from '../../../public/place.png'
-import Cincin from '../../../public/cincin.png'
-import Cheers from '../../../public/cheers2.png'
+import {Howl, Howler} from 'howler'
 
 
 export default function Page() {
@@ -42,7 +37,7 @@ export default function Page() {
       ucapan,
     }
 
-    const response = await fetch('/../../api/submit',{
+    const response = await fetch('http://localhost:3000/api/submit',{
       method:'POST',
       headers:{
         'Accept':'application/json',
@@ -53,7 +48,7 @@ export default function Page() {
 
     const content = await response.json();
 
-    alert(content.data.tableRange)
+    console.log('Content',content)
 
     setNama('')
     setUcapan('')

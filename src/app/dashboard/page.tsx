@@ -20,12 +20,12 @@ export default function Page() {
     TweenMax.to(weddingText, .8, { opacity: 1, y: -20, ease: Power3.easeOut })
     TweenMax.to(containerName, .8, { opacity: 1, y: -20, delay: .3, ease: Power3.easeOut })
     TweenMax.to(btnWedding, .8, { opacity: 1, y: -20, delay: .5, ease: Power3.easeOut })
+    
   }, [])
 
   const btnOpen = () => {
     TweenMax.to([weddingText, containerName, btnWedding, imageFlower], .8, { opacity: 0, y: 0, ease: Power3.easeOut })
     router.push('/profile')
-
   }
 
 
