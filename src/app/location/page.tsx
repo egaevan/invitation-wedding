@@ -133,7 +133,7 @@ export default function Page() {
             <div className={classnames('flex flex-col items-center justify-center')}>
               <div className={classnames('ml-3')}>
                 <a href="https://goo.gl/maps/HaL5cAnzhf8hjrMv8">
-                  <button className={classnames('py-[8px] w-[10vw] md:w-[30px] lg:w-[200px] mt-[12px] rounded-md relative bg-[#D49494] text-white opacity-1 hover:bg-[#e8aeae]')}>
+                  <button className={classnames('min-w-screen py-[8px] w-[10vw] md:w-[30px] lg:w-[200px] mt-[12px] rounded-md relative bg-[#D49494] text-white opacity-1 hover:bg-[#e8aeae]')}>
                     Open Maps
                   </button>
                 </a>

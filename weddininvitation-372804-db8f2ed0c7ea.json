@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "weddininvitation-372804",
+  "private_key_id": "db8f2ed0c7ea00fbef7643dec6d70165330c13c2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCVJH6ED5p9Hg7t\n90bWQt0Sh/g0K8QPRIpmX+kvcCTq0cMeQT8OE0EclACFdoBmPNeE8GwqQW1H0ot2\njCnrx8By+UqzLru0l535Ch183Ov0365JtyS5gHAexGBTH5D7pTlZw7PiRb1vHELE\nQUEhW+gGtsIrK1U3mcvlJg/hiZRu4syx1tOFeNx0fC2znowyPM3W75mW4yYNSYD5\nb0pWAm7QOOO34W4AZQw4clWM27lxzO10feYErIhFnU1S3D4kLxtIhjYJyz8nrqXs\ne+3xcKt+uiuIn7psjbSKPBO14qiNnBcTzR53/8MbJsQPd7RA4B5F4naE8JtqTksh\nMEgbiZE9AgMBAAECggEAAgdejzZVICmWA2evN3/uWO+vkSodPyXsCgt49RO99NHI\nqTMzA+KAKr7aqPYdNgbS2bSZjBOaxHTZP9IVSedMN2Qrv3c9x22ekQIxt36b2Rdn\n3AnZPorAO7LpKohN5RZwysdOPaA8PPQx9lB67dS9ucWnq4Wp4Zk+fE4BvkwsUDvR\nQvNLZiHiFgTlyYFOloucuIidIqU4nRiuEW0MI+gokinO/OnQfYsJLgq6kLv6FEIt\nReOL/bU2JVbnM0PLnopJdwV5zH625fGWOCdD3D7m1HIm2iibqR+vlAnMMcOtctte\ntLW8mRFTJkWN97K7yLD5VPN6qvrO2C/Uhhd0PgE+sQKBgQDGSjfTmQGndzm7jXuY\nTJ3WCIdpZkGABDNOyvPfHbBrSMgTZ26Lleu4a1eJ39tF5YEh9xsZxyeegMOtb/Cu\nTOQ6fTpe3VFMLUME03zXlTPYnS1UvqtVbyg6+th8lt8uGrOkTbdZZbYONr9FyDsU\n21iP1anS1qYULgY/di26sogq1QKBgQDAjIEtvwOQVUcYlYa2fOUZ7578kimK85v2\ntbMbsNcd/6Z38y3+mSEbNYMlbDxghzKEHM873vyOS4Mt1klaC955ncyJyyBjEUDw\nki5SFfPdQzBJ/jqDN+B2n8rmW8ixkrDdkrNUj/Dps4dxSJ1mRifIdyrSWwXOBWJn\nSxsm6DgwyQKBgDIPEJLxwLInbkLEEBy90uby1kSslQKdjNpqcDC2jRA4mpITfZvt\nqEmxh7L9+ZxmuTf66zORzJW+Sigh53AJZ2DAtpi2ZMzHbHDud0jxmNoprAUF8bkq\ny8xAAaFKcWNxSELFf/EotVJXTehvCUNVsMD3Ht1kZR8ZE2i4DAljAu9VAoGBAINx\np2HWSxWF0cILmWoMes2o0ezzzp5HzUmvInUd1Mxq0HaEMPrkCECt2Dh82f6/bJHZ\npPLnN5vgGs34whxRi++T9KSAYTyf86gG8s4gpFiA3H82qTUYuQfh774wHCJ01H59\n/iQVG04+u5BvFNxTuibUiwwNDTpmXJXNJNz7nBhZAoGATZYxFF23AqWQl7o3/UZl\nMveFZV97KpiMwUK5FAtcwRA83knct3a9+HXSkbXxXspCzHdH73rcFECikyR9v+zg\n3v+4/XRmDm3cUsq3IXgN+kCT3FzjD9yN+zh4YajkCqlLEdgrWMw8oHvWRGZAVR2L\n2KlJraFIO5217t28hlc5GTo=\n-----END PRIVATE KEY-----\n",
+  "client_email": "spreadsheet@weddininvitation-372804.iam.gserviceaccount.com",
+  "client_id": "103765379093977662275",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/spreadsheet%40weddininvitation-372804.iam.gserviceaccount.com"
+}
