@@ -12,7 +12,10 @@ export default function RootLayout({ children }: {
       <title>Wedding Ica ♥ Ega</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, maximum-scale=1.0, user-scalable=no" />
       <body>
-        {children}
+      <audio autoPlay>
+          <source src="../../public/Akad.mp3" type="audio/mp3" />
+      </audio>
+      {children}
       </body>
     </html>
   );
