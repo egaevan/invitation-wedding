@@ -15,7 +15,7 @@ const layout = ({ children }: { children: React.ReactNode }) => {
                     <p className={classnames('p-0 m-0 text-[#965A00] font-semibold font-caladea')}>I & E</p>
                 </div>
                 <div className={classnames(`bg-[#ffff] relative flex flex-col z-0 w-full rounded-t-2xl  `)}>
-                    <div className={classnames(` relative  ease-in duration-700 transition height-responsive-location md:min-h-[calc(100vh-50px)] lg:min-h-[calc(100vh-50px)] overflow-hidden`)} data-testid="containerChildren">
+                    <div className={classnames(` relative  ease-in duration-700 transition height-responsive-location md:min-h-[calc(100vh-40px)] lg:min-h-[calc(100vh-40px)] overflow-hidden`)} data-testid="containerChildren">
                         {children}
                     </div>
                 </div>

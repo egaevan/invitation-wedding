@@ -6,18 +6,20 @@ import Ega from '../../../public/Ega.png'
 import Ica from '../../../public/Ica.png'
 import { TweenMax, Power3 } from 'gsap'
 
+
 export default function Page() {
   let containerBorder: any = React.useRef(null)
   let textTitle : any = React.useRef(null)
   let textEga : any = React.useRef(null)
   let textIca : any = React.useRef(null)
-
+  const [play, setPlay] = React.useState(true)
 
   React.useEffect(() => {
     TweenMax.to(containerBorder, .8, { opacity: 1, ease: Power3.easeOut })
     TweenMax.to(textTitle, .8, { opacity: 1,delay:.5, ease: Power3.easeOut })
     TweenMax.to(textEga, .8, { opacity: 1,delay:.8, ease: Power3.easeOut })
     TweenMax.to(textIca, .8, { opacity: 1,delay:1, ease: Power3.easeOut })
+
 }, [])
 
   return (
