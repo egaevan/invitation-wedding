@@ -26,7 +26,7 @@ export default function Page() {
     <div className={classnames('border-[4px]  max-h-[calc(100vh-220px)]  md:max-h-[calc(100vh-80px)] lg:max-h-[calc(100vh-80px)] overflow-x-hidden overflow-y-auto   border-[#BB9096] p-[16px] opacity-0')} ref={item => { containerBorder = item }}>
       <div className={classnames('flex flex-col text-center items-center justify-center ')}>
         <p className={classnames('text-[16px] max-w-[355px] leading-[100%] tracking-[.1em] font-dancing opacity-0')} ref={item => { textTitle = item }}>Bismillahirrahmanirrahiim
-          <br /><br /><span >Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud emnyelenggarakan Akad Nikah & Resepsi Pernikahan putra-putri kami,</span></p>
+          <br /><br /><span >Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud menyelenggarakan Akad Nikah & Resepsi Pernikahan putra-putri kami,</span></p>
         {/*<p className={classnames('text-[14px] max-w-[355px] leading-[100%] tracking-[.1em] font-dancing opacity-0')} ref={item => { textTitle = item }}>“Dan di antara tanda-tanda kekuasaan Allah ialah diciptakan-Nya untukmu pasangan hidup dari jenismu sendiri supaya kamu merasa tentram di samping-Nya dan dijadikan-Nya rasa kasih sayang di antara kamu. Sesungguhnya yang demikian itu menjadi bukti kekuasaan Allah bagi kaum yang berfikir.“*/}
         {/*  <br /><br /><span >(QS. Ar- Rum 21)</span></p>*/}
       </div>
