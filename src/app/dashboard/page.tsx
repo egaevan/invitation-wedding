@@ -4,17 +4,22 @@ import classnames from 'classnames'
 import Image from 'next/image';
 import Flower from '../../../public/flower.png'
 import Ring from '../../../public/ring.png'
-import { useRouter } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
 import { TweenMax, Power3 } from 'gsap'
 import {Howl, Howler} from 'howler'
 
 
 export default function Page() {
   let weddingText: any = React.useRef(null)
+  let assText: any = React.useRef(null)
   let containerName: any = React.useRef(null)
   let btnWedding: any = React.useRef(null)
   let imageFlower: any = React.useRef(null)
-  const router = useRouter()
+  const nav = useRouter()
+
+  const searchParams = useSearchParams();
+
+  const to = searchParams.get('to');
 
 
   var sound = new Howl({
@@ -29,6 +34,7 @@ export default function Page() {
   });
   React.useEffect(() => {
     TweenMax.to(weddingText, .8, { opacity: 1, y: -20, ease: Power3.easeOut })
+    TweenMax.to(assText, .8, { opacity: 1, y: -40, delay: .3, ease: Power3.easeOut })
     TweenMax.to(containerName, .8, { opacity: 1, y: -20, delay: .3, ease: Power3.easeOut })
     TweenMax.to(btnWedding, .8, { opacity: 1, y: -20, delay: .5, ease: Power3.easeOut })
     sound.play();
@@ -36,8 +42,8 @@ export default function Page() {
   }, [])
 
   const btnOpen = () => {
-    TweenMax.to([weddingText, containerName, btnWedding, imageFlower], .8, { opacity: 0, y: 0, ease: Power3.easeOut })
-    router.push('/profile')
+    TweenMax.to([weddingText, containerName, btnWedding, imageFlower, assText], .8, { opacity: 0, y: 0, ease: Power3.easeOut })
+    nav.push('/profile')
   }
 
 
@@ -57,7 +63,10 @@ export default function Page() {
               <h1 className={classnames('text-title text-[40px] leading-[150%] tracking-[0.3em]')}>EGA</h1>
             </div>
           </div>
-          <button className={classnames('py-[14px] min-w-[350px] mt-[82px] rounded-md relative bg-[#D49494] text-white opacity-0 hover:bg-[#e8aeae]')} onClick={() => { btnOpen() }} ref={item3 => { btnWedding = item3 }}>
+         <center> <p className={classnames('text-primary opacity-0 mt-[82px]' )} ref={item => { assText = item }}>Kpd. Bpk/Ibu/Saudara/i
+          <br/>{to}</p>
+         </center>
+          <button className={classnames('py-[14px] min-w-[350px] mt-[0px] rounded-md relative bg-[#D49494] text-white opacity-0 hover:bg-[#e8aeae]')} onClick={() => { btnOpen() }} ref={item3 => { btnWedding = item3 }}>
             BUKA UNDANGAN
           </button>
         </div>

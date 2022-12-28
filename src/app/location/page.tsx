@@ -37,15 +37,15 @@ export default function Page() {
 
   return (
     <div className={classnames('max-h-[calc(100vh-220px)]  md:max-h-[calc(100vh-130px)] lg:max-h-[calc(100vh-130px)] overflow-x-hidden overflow-y-auto ')}>
-      <div className={classnames(' h-[254px] mt-[-40px] relative opacity-0')} ref={item => { containerImage = item }}>
+      <div className={classnames(' h-[254px] mt-[-40px] relative opacity-80')} ref={item => { containerImage = item }}>
         <Image
           alt='Mountains'
           src={BG}
           object-fit='fill'
         />
-        <div className={classnames('absolute flex flex-col top-[110px] left-0 right-0 ml-auto mr-auto text-center opacity-0')} ref={item => { textTitle = item }}>
-          <h1 className={classnames('text-black text-[24px] leading-[150%] tracking-[0.3em] font-caladea')}>THE WEDDING</h1>
-          <h1 className={classnames('text-black text-[24px] leading-[150%] tracking-[0.3em] font-caladea mt-[31px]')}>ICA & EGA </h1>
+        <div className={classnames('absolute flex flex-col top-[90px] left-0 right-0 ml-auto mr-auto text-center opacity-0')} ref={item => { textTitle = item }}>
+          <h1 className={classnames('text-black text-[24px] leading-[100%] tracking-[0.3em] font-caladea')}>THE WEDDING</h1>
+          <h1 className={classnames('text-black text-[24px] leading-[100%] tracking-[0.3em] font-caladea mt-[31px]')}>ICA & EGA </h1>
         </div>
       </div>
 
