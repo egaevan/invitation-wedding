@@ -49,9 +49,9 @@ export default function Page() {
         <div className='absolute flex left-[100px] top-[133px]'>
           <div className={classnames('flex flex-col')}>
             <p className={classnames('font-dancing text-[#965A00] text-[24px]')}>Ega Evan, S.Kom.</p>
-            <p className={classnames('max-w-[121px] text-[#965A00] text-[14px] text-[#000000] leading-[17px] font-montaga')}>Putra dari
-              Bpk. Ardimus Achmad
-              & Ibu Surniati Sawir</p>
+            <p className={classnames('text-[#965A00] text-[14px] text-[#000000] leading-[17px] font-montaga')}>Putra dari Bpk.
+              <br/>Ardimus Achmad
+              <br/>& Ibu Surniati Sawir</p>
           </div>
         </div>
       </div>
